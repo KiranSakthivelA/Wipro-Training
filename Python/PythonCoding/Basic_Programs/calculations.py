@@ -1,3 +1,5 @@
+#basic calculation
+
 a = int(input('Enter First Number : '))
 b= int(input('Enter Second Number : '))
 print('Sum of the two given number is : ', a+b)
