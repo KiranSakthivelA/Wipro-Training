@@ -1,31 +1,25 @@
+#natural numbers printing
 
-#Natural Number Printing
-'''
-num = int(input('Enter a Number : '))
-
+'''num = int(input('enter a number'))
 value = 1
 
 while value <= num:
     print(value)
-    value += 1
-'''
+    value += 1'''
 
-# Armstrong Number
+# armstrong number
 
-num = input('Enter a number : ')
+num = input('enter a number')
 count = len(num)
 sum = 0
-ni = int (num)
+ni = int(num)
 comp = ni
 while ni > 0:
     rem = ni % 10
     sum = sum + rem ** count
-    ni = ni//10
-
+    ni = ni // 10
 
 if comp == sum:
-    print('It is Armstrong Number')
+    print('armstrong number')
 else:
-    print('It is not Armstrong Number')
-
-
+    print('not armstrong number')
